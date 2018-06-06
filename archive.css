@@ -7,12 +7,12 @@ background-color: #fff;
 .header {
   position: fixed;
   bottom:0px;
-  text-align: center;
-  font-size: 13vw;
+  text-align: left;
+  font-size: 8vw;
   text-transform: uppercase;
   font-family: helvetica, arial;
   letter-spacing: -0.05em;
-  width:100%;
+  width:50%;
   text-align: center;
   z-index: 2;
 }

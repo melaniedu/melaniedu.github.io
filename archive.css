@@ -20,10 +20,10 @@ background-color: #fff;
 /* MY NAVIGATION FONT AND STYLE */
 
 .nav {
-width:100%;
 position: fixed;
-top:0px;
-left:0px;
+width:100%;
+top:10px;
+right:0px;
 z-index:2;
 padding-top: 5px;
 }
@@ -67,7 +67,7 @@ margin-left: 115px}
   color:purple;
 }
 
-/* MY BASE WIDTH FOR ALL ITEMS */
+
 
 
 
@@ -76,14 +76,12 @@ margin-left: 115px}
   width:25%;
 }
 
-/* STOP IMAGES FROM GOING OUTSIDE THEIR WIDTH */
 
 .item img {
   max-width:100%;
   padding: 10px;
 }
 
-/* HELPER CLASSES FOR JS TO HIDE AND SHOW */
 
 .show {
   display: block;
@@ -94,18 +92,7 @@ margin-left: 115px}
 }
 
 
-/* THIS IS FROM THE GRID.CSS WE ADDED */
 
-/*
------------------------------------------------
-FluidGrids CSS - Grids
------------------------------------------------ */
-/* Based on Nicole Sullivan's OOCSS:
-http://github.com/stubbornella/oocss/blob/8e6c6e7c7543bc76ea4f870a8ca25d27ac857d32/css/grids.css
-*/
-
-/* Page Divisions and Margins
------------------------------------------------ */
 .row {overflow:hidden;}
 .col {float:left;}
 .pd {padding:0 18px;}
